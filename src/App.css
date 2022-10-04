@@ -1,11 +1,54 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  /*height: 200px;*/
+  /*border: 3px solid green;*/
+  flex-direction:  column ;
+
+}
+.TextContainer{
+  padding: 20px;
+  height: 300px;
+  width: 700px;
+  border: 1px solid black;
+  border-radius: 25px;
+  font-size: 32px;
+}
+.InputContainer{
+  display: block;
+  padding-top: 20px;
+}
+
+.InputContainer > textarea{
+  width: 700px;
+  height: 50px;
+  outline: none;
+  resize: none;
+  font-size: 32px;
+
+  border-style: inset;
+  border-width: 2px;
+  border-radius: 10px;
+
+  /*border: none;*/
+  overflow: auto;
+}
+
+
+.InputContainer > textarea:focus, input:focus{
+  outline: none;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  outline: none;
+  border-radius: 25px;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
