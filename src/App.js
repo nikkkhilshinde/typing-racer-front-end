@@ -1,10 +1,10 @@
 
 import './App.css';
-import MainContent from "./components/MainContent";
+import Homepage from "./components/Homepage";
 
 function App() {
   return (
-      <MainContent key="MainContent"/>
+      <Homepage key="Homepage"></Homepage>
   );
 }
 
